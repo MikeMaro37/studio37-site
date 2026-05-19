@@ -1,37 +1,33 @@
-import Image from "next/image";
-
 export function About() {
   return (
-    <section id="about" className="bg-bg-light text-fg-light py-[180px] px-6">
+    <section id="about" className="bg-[var(--color-bg-light)] text-[var(--color-fg-light)] py-[180px] px-6">
       <div className="max-w-[1200px] mx-auto">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-20 items-center">
-          <div className="reveal">
-            <h2 className="text-[clamp(32px,5vw,56px)] font-semibold tracking-[-0.035em] leading-[1.05] mb-8">
-              Ten years of directing <span className="font-serif-italic">pixels</span> into pictures.
-            </h2>
-            <p className="text-[17px] leading-[1.55] text-muted-light mb-4 max-w-[52ch]">
-              Mike Maro is a Belgrade-based art director and CG supervisor. He has led visual direction on commercial films for fashion, sport, retail and lifestyle brands across Europe.
-            </p>
-            <p className="text-[17px] leading-[1.55] text-muted-light mb-4 max-w-[52ch]">
-              He is the founder and creative director of <a href="https://studio37.team" target="_blank" rel="noopener noreferrer" className="underline decoration-fg-light/30 underline-offset-4 hover:decoration-fg-light transition-colors">Studio 37</a>, where he built a team and a body of work spanning campaigns, product films and brand identities for clients including Avito, Yandex and VK.
-            </p>
-            <p className="text-[17px] leading-[1.55] text-muted-light mb-4 max-w-[52ch]">
-              His practice combines traditional CG craft with AI-native production pipelines, a hybrid approach that shortens timelines without softening the work.
-            </p>
-            <p className="text-[17px] leading-[1.55] text-muted-light max-w-[52ch]">
-              Currently available for freelance art direction across Europe: campaigns, product films, title sequences and brand identity work.
-            </p>
+        <div className="reveal max-w-[800px] mx-auto text-center mb-24">
+          <h2 className="text-[clamp(32px,5vw,56px)] font-semibold tracking-[-0.035em] leading-[1.05] mb-8">
+            We are <span className="font-serif-italic">Studio 37.</span>
+          </h2>
+          <p className="text-[17px] leading-[1.55] text-muted-light mb-4 max-w-[52ch] mx-auto">
+          An independent CGI, VFX and motion design studio based in Belgrade. With over a decade of industry experience, we work with fashion and lifestyle brands across Europe, the Americas, MENA and Asia.          </p>
+          <p className="text-[17px] leading-[1.55] text-muted-light max-w-[52ch] mx-auto">
+            We combine traditional CG craft with AI-native production pipelines, a hybrid approach that shortens timelines without softening the work.
+          </p>
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 max-w-[800px] mx-auto">
+          <div className="reveal flex flex-col items-center text-center">
+            <div className="w-full aspect-[4/5] rounded-[20px] overflow-hidden bg-black/5 mb-5">
+              <img src="/portrait-mikhail.jpg" alt="Mikhail Maro" className="w-full h-full object-cover" />
+            </div>
+            <div className="text-[18px] font-medium tracking-[-0.01em]">Mikhail Maro</div>
+            <div className="text-[13px] tracking-[0.05em] uppercase text-muted-light font-medium mt-1">Creative director</div>
           </div>
 
-          <div className="reveal relative aspect-[4/5] rounded-[24px] overflow-hidden shadow-[0_30px_80px_rgba(0,0,0,0.15)]">
-            <Image
-              src="/portrait.jpg"
-              alt="Mike Maro"
-              fill
-              sizes="(max-width: 768px) 100vw, 50vw"
-              className="object-cover"
-              priority={false}
-            />
+          <div className="reveal flex flex-col items-center text-center">
+            <div className="w-full aspect-[4/5] rounded-[20px] overflow-hidden bg-black/5 mb-5">
+              <img src="/portrait-gennadii.jpg" alt="Gennadii Barmakov" className="w-full h-full object-cover" />
+            </div>
+            <div className="text-[18px] font-medium tracking-[-0.01em]">Gennadii Barmakov</div>
+            <div className="text-[13px] tracking-[0.05em] uppercase text-muted-light font-medium mt-1">Executive producer</div>
           </div>
         </div>
       </div>
