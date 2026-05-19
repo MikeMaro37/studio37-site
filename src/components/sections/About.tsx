@@ -20,7 +20,7 @@ export function About() {
               <img src="/portrait-mikhail.jpg" alt="Mikhail Maro" className="w-full h-full object-cover" />
             </div>
             <div className="text-[18px] font-medium tracking-[-0.01em]">Mikhail Maro</div>
-            <div className="text-[13px] tracking-[0.05em] uppercase text-muted-light font-medium mt-1">Art Director</div>
+            <div className="text-[13px] tracking-[0.05em] uppercase text-muted-light font-medium mt-1">creative director</div>
           </div>
 
           <div className="reveal flex flex-col items-center text-center">
@@ -28,7 +28,7 @@ export function About() {
               <img src="/portrait-gennadii.jpg" alt="Gennadii Barmakov" className="w-full h-full object-cover" />
             </div>
             <div className="text-[18px] font-medium tracking-[-0.01em]">Gennadii Barmakov</div>
-            <div className="text-[13px] tracking-[0.05em] uppercase text-muted-light font-medium mt-1">Producer</div>
+            <div className="text-[13px] tracking-[0.05em] uppercase text-muted-light font-medium mt-1">executive producer</div>
           </div>
         </div>
       </div>
