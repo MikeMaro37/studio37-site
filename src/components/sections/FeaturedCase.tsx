@@ -29,13 +29,13 @@ export function FeaturedCase() {
       <div className="max-w-[1200px] mx-auto w-full">
         <div className="reveal">
           <div className="text-xs tracking-[0.15em] uppercase text-muted-dark font-medium mb-5">
-            Campaign &nbsp;·&nbsp; Avito Fashion &nbsp;·&nbsp; 2026
+            Campaign &nbsp;·&nbsp; Avito Fashion &nbsp;·&nbsp; 2025
           </div>
           <h3 className="text-[clamp(40px,7vw,96px)] font-semibold tracking-[-0.045em] leading-none mb-6">
-            AVITO FASHION.
+            Avito Fashion.
           </h3>
           <p className="text-[clamp(18px,1.8vw,22px)] text-muted-dark max-w-[640px] leading-[1.45] mb-14 font-normal">
-            A celebrity-led fashion campaign for one of the largest marketplaces in Europe. Single-camera production fused with CG and tight post for a two-week turnaround.
+            A celebrity-led fashion campaign for one of the largest marketplaces in Europe. We led the production end-to-end: single-camera shoot fused with CG and tight post, delivered in two weeks.
           </p>
         </div>
 
@@ -64,9 +64,9 @@ export function FeaturedCase() {
           <div className="flex flex-col">
             <div className="text-[11px] tracking-[0.1em] uppercase text-muted-dark font-medium mb-2.5">Role</div>
             <div className="text-[15px] font-normal leading-[1.4]">
-              <strong className="font-medium">Art Director</strong><br />
-              CG Supervisor<br />
-              Production Supervisor
+              <strong className="font-medium">Studio 37</strong><br />
+              Concept, Direction,<br />
+              CG Supervision, Post
             </div>
           </div>
           <div className="flex flex-col">
