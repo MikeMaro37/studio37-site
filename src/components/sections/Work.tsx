@@ -16,7 +16,7 @@ const items: WorkItem[] = [
     vimeoId: "1186632330",
     eyebrow: "Tech · 2024",
     title: "Yandex",
-    tagline: "Brand identity in motion.",
+    tagline: "Brand identity, set in motion.",
   },
   {
     id: "flowwow",
@@ -79,11 +79,11 @@ export function Work() {
   }, []);
 
   return (
-    <section id="work" className="bg-bg-light text-fg-light py-[140px] px-6">
+    <section id="work" className="bg-[var(--color-bg-light)] text-[var(--color-fg-light)] py-[140px] px-6">
       <div className="max-w-[1200px] mx-auto">
         <div className="reveal flex justify-between items-end mb-16 flex-wrap gap-4">
           <h2 className="text-[clamp(36px,5vw,64px)] font-semibold tracking-[-0.035em] leading-none">
-            Selected Work.
+            Selected work.
           </h2>
           <div className="text-xs tracking-[0.1em] uppercase text-muted-light font-medium">
             2023 – 2025
