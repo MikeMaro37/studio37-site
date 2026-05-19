@@ -22,7 +22,9 @@ export function Nav() {
   return (
     <nav className={`fixed top-0 left-0 right-0 z-50 border-b border-hairline-dark backdrop-blur-xl backdrop-saturate-150 transition-colors duration-300 ${scrolled ? "bg-black/70" : "bg-black/40"}`}>
       <div className="max-w-[1200px] mx-auto flex items-center justify-between px-6 h-12">
-        <a href="#" className="text-[15px] font-medium tracking-tight text-white">Mike Maro</a>
+        <a href="#" aria-label="Studio 37" className="flex items-center">
+          <img src="/logo-studio37-white.svg" alt="Studio 37" className="h-10 w-auto" />
+        </a>
         <ul className="flex gap-5 sm:gap-8 list-none">
           {navLinks.map((link) => (
             <li key={link.href}>

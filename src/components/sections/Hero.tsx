@@ -36,19 +36,19 @@ export function Hero() {
         }}
       />
 
-      <ParticleField count={137} />
+      <ParticleField count={160} />
 
       <p className="relative z-10 text-xs tracking-[0.1em] uppercase text-muted-dark mb-6 font-medium">
-        Art Director &nbsp;·&nbsp; CG Supervisor
+        CGI &nbsp;·&nbsp; VFX &nbsp;·&nbsp; Motion Design
       </p>
 
       <h1 className="relative z-10 hero-gradient-text text-[clamp(56px,11vw,160px)] font-semibold tracking-[-0.055em] leading-[0.95] mb-6">
-        Commercials<br />
-        <span className="font-serif-italic tracking-[-0.02em]">for modern brands.</span>
+        Independent studio<br />
+        <span className="font-serif-italic tracking-[-0.02em]">for fashion & lifestyle.</span>
       </h1>
 
       <p className="relative z-10 text-[clamp(18px,2vw,22px)] text-muted-dark font-normal max-w-[640px] leading-[1.4] mb-12">
-        Crafting visual language for the world&apos;s most demanding names in fashion, sport and lifestyle. Directed from concept to final frame.
+        We craft visual language for ambitious brands. From concept to final frame: CGI, VFX, motion design and AI-native production.
       </p>
 
       <div
@@ -60,7 +60,7 @@ export function Hero() {
           allow="autoplay; fullscreen; picture-in-picture"
           referrerPolicy="strict-origin-when-cross-origin"
           className="absolute inset-0 w-full h-full pointer-events-none"
-          title="Showreel 2026 Mike Maro"
+          title="Studio 37 Showreel"
         />
 
         <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent pointer-events-none transition-opacity duration-300 group-hover:opacity-60" />
@@ -103,12 +103,12 @@ export function Hero() {
               allow="autoplay; fullscreen; picture-in-picture"
               referrerPolicy="strict-origin-when-cross-origin"
               className="absolute inset-0 w-full h-full"
-              title="Showreel 2026 Mike Maro"
+              title="Studio 37 Showreel"
             />
           </div>
 
           <div className="absolute bottom-6 left-1/2 -translate-x-1/2 text-center text-white/60 text-xs tracking-[0.1em] uppercase font-medium pointer-events-none">
-            Showreel · 2024–2026 · Press ESC or click outside to close
+            Showreel · Studio 37 · Press ESC or click outside to close
           </div>
         </div>
       )}

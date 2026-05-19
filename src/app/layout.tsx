@@ -16,15 +16,15 @@ const instrumentSerif = Instrument_Serif({
 });
 
 export const metadata: Metadata = {
-  title: "Mike Maro — Art Director & CG Supervisor",
+  title: "Studio 37 — Independent studio for fashion & lifestyle brands",
   description:
-    "Commercials for modern brands. Art direction, CG supervision and AI video production for fashion, sport and lifestyle.",
-  metadataBase: new URL("https://mikemaro.com"),
+    "CGI, VFX, motion design and AI-native production for fashion and lifestyle brands. Belgrade-based.",
+  metadataBase: new URL("https://studio37.net"),
   openGraph: {
-    title: "Mike Maro — Art Director & CG Supervisor",
-    description: "Commercials for modern brands.",
-    url: "https://mikemaro.com",
-    siteName: "Mike Maro",
+    title: "Studio 37 — Independent studio for fashion & lifestyle brands",
+    description: "CGI · VFX · Motion Design · AI Video.",
+    url: "https://studio37.net",
+    siteName: "Studio 37",
     locale: "en_US",
     type: "website",
   },
