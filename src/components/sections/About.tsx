@@ -7,9 +7,10 @@ export function About() {
             We are <span className="font-serif-italic">Studio 37.</span>
           </h2>
           <p className="text-[17px] leading-[1.55] text-muted-light mb-4 max-w-[52ch] mx-auto">
-          An independent CGI, VFX and motion design studio based in Belgrade. With over a decade of industry experience, we work with fashion and lifestyle brands across Europe, the Americas, MENA and Asia.          </p>
+            We craft aspirational worlds for the world&apos;s most ambitious brands. Cinematic CGI, VFX and motion design with the precision and discipline that high-end fashion and lifestyle demand.
+          </p>
           <p className="text-[17px] leading-[1.55] text-muted-light max-w-[52ch] mx-auto">
-            We combine traditional CG craft with AI-native production pipelines, a hybrid approach that shortens timelines without softening the work.
+            Built on more than a decade of industry expertise, we partner with clients globally, fusing traditional CG craftsmanship with AI-native pipelines to deliver work that moves faster without compromise.
           </p>
         </div>
 
@@ -19,7 +20,7 @@ export function About() {
               <img src="/portrait-mikhail.jpg" alt="Mikhail Maro" className="w-full h-full object-cover" />
             </div>
             <div className="text-[18px] font-medium tracking-[-0.01em]">Mikhail Maro</div>
-            <div className="text-[13px] tracking-[0.05em] uppercase text-muted-light font-medium mt-1">Creative director</div>
+            <div className="text-[13px] tracking-[0.05em] uppercase text-muted-light font-medium mt-1">Art Director</div>
           </div>
 
           <div className="reveal flex flex-col items-center text-center">
@@ -27,7 +28,7 @@ export function About() {
               <img src="/portrait-gennadii.jpg" alt="Gennadii Barmakov" className="w-full h-full object-cover" />
             </div>
             <div className="text-[18px] font-medium tracking-[-0.01em]">Gennadii Barmakov</div>
-            <div className="text-[13px] tracking-[0.05em] uppercase text-muted-light font-medium mt-1">Executive producer</div>
+            <div className="text-[13px] tracking-[0.05em] uppercase text-muted-light font-medium mt-1">Producer</div>
           </div>
         </div>
       </div>
