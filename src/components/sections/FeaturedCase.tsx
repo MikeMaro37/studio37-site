@@ -29,7 +29,7 @@ export function FeaturedCase() {
       <div className="max-w-[1200px] mx-auto w-full">
         <div className="reveal">
           <div className="text-xs tracking-[0.15em] uppercase text-muted-dark font-medium mb-5">
-            Campaign &nbsp;·&nbsp; Avito Fashion &nbsp;·&nbsp; 2025
+            Campaign &nbsp;·&nbsp; Avito Fashion &nbsp;·&nbsp; 2026
           </div>
           <h3 className="text-[clamp(40px,7vw,96px)] font-semibold tracking-[-0.045em] leading-none mb-6">
             Avito Fashion.
@@ -116,7 +116,7 @@ export function FeaturedCase() {
           </div>
 
           <div className="absolute bottom-6 left-1/2 -translate-x-1/2 text-center text-white/60 text-xs tracking-[0.1em] uppercase font-medium pointer-events-none">
-            Avito Fashion · Campaign · 2025 · Press ESC or click outside to close
+            Avito Fashion · Campaign · 2026 · Press ESC or click outside to close
           </div>
         </div>
       )}

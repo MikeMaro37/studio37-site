@@ -56,7 +56,7 @@ export function Hero() {
         className="group relative z-10 w-[min(92vw,1080px)] aspect-video rounded-[20px] overflow-hidden shadow-[0_40px_120px_rgba(0,0,0,0.6)] ring-1 ring-hairline-dark bg-black cursor-pointer transition-transform duration-500 ease-[cubic-bezier(0.16,1,0.3,1)] hover:scale-[1.01]"
       >
         <iframe
-          src="https://player.vimeo.com/video/1186466644?background=1&autoplay=1&loop=1&muted=1&autopause=0&badge=0&title=0&byline=0&portrait=0"
+          src="https://player.vimeo.com/video/1193917877?background=1&autoplay=1&loop=1&muted=1&autopause=0&badge=0&title=0&byline=0&portrait=0"
           allow="autoplay; fullscreen; picture-in-picture"
           referrerPolicy="strict-origin-when-cross-origin"
           className="absolute inset-0 w-full h-full pointer-events-none"
@@ -99,7 +99,7 @@ export function Hero() {
             className="relative w-full max-w-[1200px] aspect-video rounded-[16px] overflow-hidden bg-black shadow-[0_40px_120px_rgba(0,0,0,0.6)]"
           >
             <iframe
-              src="https://player.vimeo.com/video/1186466644?autoplay=1&autopause=0&badge=0&title=0&byline=0&portrait=0"
+              src="https://player.vimeo.com/video/1193917877?autoplay=1&autopause=0&badge=0&title=0&byline=0&portrait=0"
               allow="autoplay; fullscreen; picture-in-picture"
               referrerPolicy="strict-origin-when-cross-origin"
               className="absolute inset-0 w-full h-full"
