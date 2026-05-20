@@ -86,7 +86,7 @@ export function Work() {
             Selected work.
           </h2>
           <div className="text-xs tracking-[0.1em] uppercase text-muted-light font-medium">
-            2023 – 2025
+            2023 – 2026
           </div>
         </div>
 
